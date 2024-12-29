@@ -1,0 +1,8 @@
+<div class="skills-container">
+    <h2>Skills & Technologies</h2>
+    <div class="skills-grid">
+        <ng-container *ngFor="let skill of skills">
+            <app-skill [name]="skill.name" [icon]="skill.icon"></app-skill>
+        </ng-container>
+    </div>
+</div>
